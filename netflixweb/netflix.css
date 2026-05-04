@@ -1,0 +1,381 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.bg-container{
+    background-color: black;
+}
+.top-container{
+    background-image:url("aa.jpg");
+    background-size:cover;
+    min-height:450vh;
+    width:100vw;
+    padding: 20px;
+    position: relative;
+}
+.main-heading{
+    text-align: left;
+    color:red;
+    font-size:40px ;
+    font-style:normal;
+    
+}
+
+#language{
+   
+  background-color: rgba(0,0,0,0.7); 
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 8px 30px 8px 30px; 
+  font-size: 14px;
+  background-position: 8px center, right 8px center; 
+  background-size: 16px, 12px;
+  position: absolute;
+  top: 50px;
+  right:150px;
+  display: flex;
+  z-index:1;
+}
+
+.button{
+    color:white;
+    background: red;
+    width:90px;
+    height:30px;
+    padding:8px 12px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    position: absolute;
+    top: 50px;
+    right:40px;
+    z-index:2;
+
+}
+    
+.text-container{
+    color:white;
+    text-align: center;
+    font-size:20px ;
+    margin-top: 150px;
+
+}
+#email{
+    color:white;
+    background-color: black;
+    font-style: normal;
+    width:200px;
+    height:50px;
+    padding: 2px;
+    border:1px solid white;
+    border-color:white;
+    border-radius: 4px;
+    margin-top:10px;
+}
+.btn{
+    color:white;
+    background-color: red;
+    font-weight: bold;
+    width:150px;
+    height:42px;
+    border:none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+.now{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.item{
+    position:relative;
+    width:200px;
+
+}
+
+.item img:hover{
+    transform:scale(1.1);
+}
+.num{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke:2px;
+    text-align: left;
+
+}
+.num1{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke:2px;
+    text-align: left;
+
+}
+.num2{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke:2px;
+    text-align: left;
+
+}
+.num3{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke:2px;
+    text-align: left;
+
+}
+.num4{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke:2px;
+    text-align: left;
+
+}
+.num5{
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke:2px;
+    text-align: left;
+
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    font: 30px;
+    margin-bottom: 40px;
+}
+.box-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    background: linear-gradient(to top rgba(101, 120, 206, 0.9), rgba(134, 37, 204, 0.9));
+    background-color:rgb(1, 12, 47);
+    border-radius:8px;
+    padding:20px;
+    width:200px;
+    height: 300px;
+    flex-direction: column;
+    box-sizing:border-box;
+    margin: 40px;
+}
+.box i{
+    font-size: 30px;
+    color:#e50914;
+    align-self:flex-end ;
+    margin-top: 20px;
+}
+.box h3{
+    margin-top:0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.box p{
+    margin:0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.faq-section {
+  width: 70%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.faq-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  background-color: #303030;
+  margin: 10px ;
+  border:none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+
+  }
+ 
+    
+.faq-item summary{
+    padding: 5px;
+    margin:5px  ;    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    list-style:none;
+    font-size:18px;
+    transition: background-color 0.3s ease;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none; 
+}
+
+
+.faq-item:hover {
+  background-color: #4d4d4d;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.container{
+    color:white;
+    text-align: center;
+    font-size:20px ;
+    margin-top: 150px;
+
+}
+.question{
+    text-align: left;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    display: inline;
+}
+.FAQ{
+    text-align:left;
+    margin-top:50px ;
+    text-decoration: underline;
+}
+.Investor{
+    text-align: left;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.privacy{
+    text-align:left;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.speed{
+    text-align:left;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.help{
+    text-align:center;
+    margin-top:50px ;
+    text-decoration: underline;
+    
+}
+.jobs{
+    text-align:center-left;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.cookie{
+    text-align:center;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.legal{
+    text-align:center;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.account{
+    text-align:center-right;
+    margin-top:50px ;
+    text-decoration: underline;
+}
+.ways{
+    text-align:center;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.corporate{
+    text-align:center;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.only{
+    text-align:center;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.media{
+    text-align:right;
+    margin-top:50px ;
+    text-decoration: underline;
+}
+.terms{
+    text-align:right;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.contact{
+    text-align:right;
+    margin-top:30px ;
+    text-decoration: underline;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.languages{
+   
+  background-color: rgba(21, 2, 2, 0.7); 
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 8px 30px 8px 30px; 
+  font-size: 14px;
+  background-position: 8px center, right 8px center; 
+  background-size: 16px, 12px;
+  margin-top: 40px;
+  display: flex;
+  
+}
+.netflix{
+    text-align: left;
+    margin-top: 30px;
+}
+.p{
+    text-align: left;
+    margin-top: 30px;
+}
+.Learn{
+    text-decoration: underline;
+    color: rgb(63, 104, 240);
+    cursor: pointer;
+}
+
+
+
+
